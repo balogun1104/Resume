@@ -9,7 +9,8 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://docs.google.com/document/d/1XwaxMQPjWgbulBjLwrwCgG3okZO2WhRY/edit#";
+  // "https://github.com/razak1104/Resume/blob/ca4b4e6d8eefd4c96af5c2c23e4baa882e661564/src/Assets/Balogun_Razak_CV_.pdf";
+  "https://github.com/razak1104/Resume/raw/ca4b4e6d8eefd4c96af5c2c23e4baa882e661564/src/Assets/Balogun_Razak_CV_.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
