@@ -10,7 +10,9 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 const resumeLink =
   // "https://github.com/razak1104/Resume/blob/ca4b4e6d8eefd4c96af5c2c23e4baa882e661564/src/Assets/Balogun_Razak_CV_.pdf";
-  "https://github.com/razak1104/Resume/raw/ca4b4e6d8eefd4c96af5c2c23e4baa882e661564/src/Assets/Balogun_Razak_CV_.pdf";
+  // "https://github.com/razak1104/Resume/raw/ca4b4e6d8eefd4c96af5c2c23e4baa882e661564/src/Assets/Balogun_Razak_CV_.pdf";
+  // "https://github.com/razak1104/Resume/blob/main/src/Assets/Balogun_Razak_CV_.pdf";
+  "https://github.com/razak1104/Resume/blob/32c359b3cfc65642dd8c25e8553171541e804752/src/Assets/Balogun_Razak_CV_.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
