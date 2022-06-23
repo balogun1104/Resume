@@ -205,6 +205,10 @@ button:focus {
   width: 100%;
 }
 
+.RB {
+  font-size: 40px;
+  font-weight: 200;
+}
 /* --------- */
 /* Home section */
 /* --------- */
@@ -612,6 +616,8 @@ button:focus {
 .resume {
   padding-top: 50px;
   padding-bottom: 50px;
+  padding-left: 250px;
+    padding-right: 250px;
   justify-content: center;
 }
 
