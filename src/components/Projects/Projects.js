@@ -47,6 +47,19 @@ function Projects() {
               link="https://github.com/razak1104/food-app"
             />
           </Col>
+          
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={foodApp}
+              isBlog={false}
+              title="Workout Buddy"
+              description="This is App allow users managed new workout routine, delete workout, Update workout .
+              This is a mern stack project The backend is built using Node.js and Express, The data is managed by MongoDb , frontend is built with react.js"
+              link="https://github.com/razak1104/MERN_STACK"
+            />
+          </Col>
+
         </Row>
       </Container>
     </Container>
