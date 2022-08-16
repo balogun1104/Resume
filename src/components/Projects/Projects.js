@@ -54,7 +54,7 @@ function Projects() {
               imgPath={foodApp}
               isBlog={false}
               title="Workout Buddy"
-              description="This is App allow users managed new workout routine, delete workout, Update workout .
+              description="This is an App allows users manage a new workout routine, delete workout, update workout .
               This is a mern stack project The backend is built using Node.js and Express, The data is managed by MongoDb , frontend is built with react.js"
               link="https://github.com/razak1104/MERN_STACK"
             />
