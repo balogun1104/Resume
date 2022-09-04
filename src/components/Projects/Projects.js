@@ -26,6 +26,7 @@ function Projects() {
               title="Chatify"
               description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
               link="https://github.com/razak1104/chatify"
+              linkBtn="https://google.com"
             />
           </Col>
 
@@ -36,6 +37,7 @@ function Projects() {
               title="Woozeee Movies"
               description="Woozee Movies is built with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode ."
               link="https://github.com/razak1104/Woozee-Movies"
+              linkBtn="https://google.com"
             />
           </Col>
 
@@ -46,6 +48,7 @@ function Projects() {
               title="Food-App"
               description="A Food App Built Using React.JS, Styled Component for styling and a RestFul Api for Collection of Data"
               link="https://github.com/razak1104/food-app"
+              linkBtn="https://google.com"
             />
           </Col>
           
@@ -58,6 +61,7 @@ function Projects() {
               description="This is an App allows users manage a new workout routine, delete workout, update workout .
               This is a mern stack project The backend is built using Node.js and Express, The data is managed by MongoDb , frontend is built with react.js"
               link="https://github.com/razak1104/MERN_STACK"
+              linkBtn="https://google.com"
             />
           </Col>
 
