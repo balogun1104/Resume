@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import foodApp from "../../Assets/Projects/Food-app.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import woozeee from "../../Assets/Projects/woozee.png";
+import workout from "../../Assets/Projects/workout.png"
 
 function Projects() {
   return (
@@ -51,7 +52,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={foodApp}
+              imgPath={workout}
               isBlog={false}
               title="Workout Buddy"
               description="This is an App allows users manage a new workout routine, delete workout, update workout .
