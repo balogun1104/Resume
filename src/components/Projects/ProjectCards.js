@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
-import { BiLinkExternal } from "react-icons/bi";
+import { CgWebsite } from "react-icons/cg";
 import {BiCodeAlt} from "react-icons/bi"
 
 function ProjectCards(props) {
@@ -18,9 +18,9 @@ function ProjectCards(props) {
           <BiCodeAlt /> &nbsp;
           {props.isBlog ? "View Blog" : "Source Code"}
         </Button>
-        <br />
+        {/* <br /> */}
         <Button variant="primary" href={props.linkBtn} target="_blank" className="projectButton">
-          <BiLinkExternal /> &nbsp;
+          <CgWebsite /> &nbsp;
           {props.isBlog ? "View Blog" : "View Project"}
         </Button>
         </div>

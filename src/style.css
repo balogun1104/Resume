@@ -747,5 +747,5 @@ button:focus {
   display: none !important;
 }
 .projectButton {
-  padding-left: 20px;
+  margin: 15px;
 }
