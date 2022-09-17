@@ -6,6 +6,7 @@ import foodApp from "../../Assets/Projects/Food-app.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import woozeee from "../../Assets/Projects/woozee.png";
 import workout from "../../Assets/Projects/workout.png"
+import online from "../../Assets/Projects/online-educational-platfoem.png"
 
 function Projects() {
   return (
@@ -59,6 +60,16 @@ function Projects() {
               isBlog={false}
               title="Workout Buddy"
               description="This is an App allows users manage a new workout routine, delete workout, update workout .
+              This is a mern stack project The backend is built using Node.js and Express, The data is managed by MongoDb , frontend is built with react.js"
+              link="https://github.com/razak1104/MERN_STACK"
+              linkBtn="https://google.com"
+            />
+
+            <ProjectCard
+              imgPath={online}
+              isBlog={false}
+              title="Online-Educational-Platform"
+              description="This is an App allows users manage a register new courses, Login.
               This is a mern stack project The backend is built using Node.js and Express, The data is managed by MongoDb , frontend is built with react.js"
               link="https://github.com/razak1104/MERN_STACK"
               linkBtn="https://google.com"
