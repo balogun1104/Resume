@@ -71,7 +71,7 @@ function Projects() {
               title="Online-Educational-Platform"
               description="This is an App allows users manage a register new courses, Login.
               This is a mern stack project The backend is built using Node.js and Express, The data is managed by MongoDb , frontend is built with react.js"
-              link="https://github.com/razak1104/MERN_STACK"
+              link="https://github.com/razak1104/Online-Educational-Platform"
               linkBtn="/"
             />
           </Col>
