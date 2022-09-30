@@ -8,6 +8,7 @@ import woozeee from "../../Assets/Projects/woozee.jpg";
 import woozeeMovies from "../../Assets/Projects/woozeeMovies.png";
 import elearning from "../../Assets/Projects/elearning.png";
 import Hulu from "../../Assets/Projects/Hulu.jpg";
+import Actech from '../../Assets/Projects/Actech.jpg';
 
 
 function Projects() {
@@ -85,6 +86,19 @@ function Projects() {
               linkBtn="https://google.com"
             />
           </Col>
+
+
+          x<Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Actech}
+              isBlog={false}
+              title="ACTEch Air-Condtioning Services"
+              description='This app is built with Rect.js and react-icon'
+              linkBtn="https://google.com"
+            />
+          </Col>
+
+          
 
           <Col md={4} className="project-card">
             <ProjectCard
