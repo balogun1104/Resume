@@ -5,8 +5,9 @@ import Particle from "../Particle";
 import foodApp from "../../Assets/Projects/Food-app.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import woozeee from "../../Assets/Projects/woozee.jpg";
-import workout from "../../Assets/Projects/workout.png";
+import woozeeMovies from "../../Assets/Projects/woozeeMovies.png";
 import elearning from "../../Assets/Projects/elearning.png";
+import Hulu from "../../Assets/Projects/Hulu.jpg";
 
 
 function Projects() {
@@ -55,7 +56,7 @@ function Projects() {
               description="This an app that allows can Anytime Anywhere
               Learn on your
               Suitable Schedule"
-              link="https://github.com/razak1104/MERN_STACK"
+              link="https://github.com/https://github.com/razak1104/Online-Educational-Platform/MERN_STACK"
               linkBtn="https://google.com"
             />
           </Col>
@@ -76,15 +77,26 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={workout}
+              imgPath={Hulu}
               isBlog={false}
-              title="Workout Buddy"
-              description="This is an App allows users manage a new workout routine, delete workout, update workout .
-              This is a mern stack project The backend is using Node.js and Express, The data is managed by MongoDb , frontend is built with react.js"
+              title="HULU 2.0"
+              description="Crated with Material Ui with little Bootstrap and fetch API from TMBD API "
               link="https://github.com/razak1104/MERN_STACK"
               linkBtn="https://google.com"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={woozeeMovies}
+              isBlog={false}
+              title="Woozeee Movies"
+              description="Woozee Movies is built with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode ."
+              link="https://github.com/razak1104/Woozee-Movies"
+              linkBtn="https://google.com"
+            />
+          </Col>
+
 
         </Row>
       </Container>
