@@ -7,7 +7,7 @@ import { AiOutlineDownload } from "react-icons/ai";
 import { pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import Resume1 from "../../Assets/Projects/Resume1.png";
-import Resume2 from "../../Assets/Projects/Resume2.png";
+
 // import cv from "../Resume/Balogun_Razak_CV_.pdf";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
@@ -43,10 +43,10 @@ function ResumeNew() {
         <Row className="resume">
           <img src={Resume1} className="d-flex justify-content-center" />
         </Row>
-
+        {/* 
         <Row className="resume">
           <img src={Resume2} className="d-flex justify-content-center" />
-        </Row>
+        </Row> */}
 
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
