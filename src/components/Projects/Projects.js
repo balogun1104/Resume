@@ -10,6 +10,7 @@ import elearning from "../../Assets/Projects/elearning.png";
 import Hulu from "../../Assets/Projects/Hulu.jpg";
 import Actech from '../../Assets/Projects/Actech.jpg';
 import jarastore from '../../Assets/Projects/jarastore.png';
+import ApiManagement from '../../Assets/Projects/ApiManagement.png'
 
 
 function Projects() {
@@ -30,8 +31,8 @@ function Projects() {
             <ProjectCard
               imgPath={woozeee}
               isBlog={false}
-              title="Woozeee Movies"
-              description="Woozee Movies is built with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode ."
+              title="Woozeee"
+              description="Woozee is a platform where you can have FUN, MAKE MONEY and GIVE BACK TO SOCIETY ."
               link="https://github.com/razak1104/Woozee-Movies"
               linkBtn="https://google.com"
             />
@@ -93,7 +94,7 @@ function Projects() {
             <ProjectCard
               imgPath={jarastore}
               isBlog={false}
-              title="HULU 2.0"
+              title="Jara-Stote"
               description="Crated with Material Ui with little Bootstrap and fetch API from TMBD API "
               link="https://github.com/razak1104/MERN_STACK"
               linkBtn="https://google.com"
@@ -101,16 +102,25 @@ function Projects() {
           </Col>
 
 
-          x<Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Actech}
               isBlog={false}
               title="ACTEch Air-Condtioning Services"
-              descriptio=' This app is built with Rect and react-icon'
+              description=' This app is built with Rect and react-icon'
               linkBtn="https://google.com"
             />
           </Col>
 
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ApiManagement}
+              isBlog={false}
+              title="Api-Management"
+              description='This is site for testing API'
+              linkBtn="https://google.com"
+            />
+          </Col>
           
 
           <Col md={4} className="project-card">
