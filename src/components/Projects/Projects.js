@@ -9,6 +9,7 @@ import woozeeMovies from "../../Assets/Projects/woozeeMovies.png";
 import elearning from "../../Assets/Projects/elearning.png";
 import Hulu from "../../Assets/Projects/Hulu.jpg";
 import Actech from '../../Assets/Projects/Actech.jpg';
+import jarastore from '../../Assets/Projects/jarastore.png';
 
 
 function Projects() {
@@ -69,7 +70,7 @@ function Projects() {
               isBlog={false}
               title="Chatify"
               description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              link="https://github.com/razak1104/chatify"
+              link="https://github.com/razak1104/Hulu"
               linkBtn="https://google.com"
             />
           </Col>
@@ -88,12 +89,24 @@ function Projects() {
           </Col>
 
 
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={jarastore}
+              isBlog={false}
+              title="HULU 2.0"
+              description="Crated with Material Ui with little Bootstrap and fetch API from TMBD API "
+              link="https://github.com/razak1104/MERN_STACK"
+              linkBtn="https://google.com"
+            />
+          </Col>
+
+
           x<Col md={4} className="project-card">
             <ProjectCard
               imgPath={Actech}
               isBlog={false}
               title="ACTEch Air-Condtioning Services"
-              description='This app is built with Rect.js and react-icon'
+              descriptio=' This app is built with Rect and react-icon'
               linkBtn="https://google.com"
             />
           </Col>
