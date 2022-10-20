@@ -6,29 +6,31 @@ import pdf from "../../Assets/../Assets/Balogun_Razak_CV_.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-import Resume1 from "../../Assets/Projects/Resume1.png";
+import { Document, Page } from 'react-pdf';
 
-// import cv from "../Resume/Balogun_Razak_CV_.pdf";
+
+
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
-// const resumeLink =
-//   // "https://github.com/razak1104/Resume/blob/ca4b4e6d8eefd4c96af5c2c23e4baa882e661564/src/Assets/Balogun_Razak_CV_.pdf";
-//   // "https://github.com/razak1104/Resume/raw/ca4b4e6d8eefd4c96af5c2c23e4baa882e661564/src/Assets/Balogun_Razak_CV_.pdf";
-//   // "https://github.com/razak1104/Resume/blob/main/src/Assets/Balogun_Razak_CV_.pdf";
-//   "https://github.com/razak1104/Resume/blob/32c359b3cfc65642dd8c25e8553171541e804752/src/Assets/Balogun_Razak_CV_.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
+  const [numPages, setNumPages] = useState(null);
+  const [pageNumber, setPageNumber] = useState(1);
 
   useEffect(() => {
     setWidth(window.innerWidth);
   }, []);
 
+    const onDocumentLoadSuccess = ({ numPages }) => {
+    setNumPages(numPages);
+   }
+   
   return (
     <div>
       <Container fluid className="resume-section">
         <Particle />
-        <Row style={{ justifyContent: "center", position: "relative" }}>
+        <Row style={{ justifyContent: "center", position: "relative", padding: '20px'}}>
           <Button
             variant="primary"
             href={pdf}
@@ -39,14 +41,14 @@ function ResumeNew() {
             &nbsp;Download CV
           </Button>
         </Row>
-
-        <Row className="resume">
-          <img src={Resume1} className="d-flex justify-content-center" />
-        </Row>
-        {/* 
-        <Row className="resume">
-          <img src={Resume2} className="d-flex justify-content-center" />
-        </Row> */}
+         <div>
+      <Document file={pdf} onLoadSuccess={onDocumentLoadSuccess} className="resume-image" >
+        <Page pageNumber={pageNumber} />
+      </Document>
+      <p style={{ padding: '8px' }}>
+        <strong> Page {pageNumber} of {numPages} </strong> 
+      </p>
+    </div>
 
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button

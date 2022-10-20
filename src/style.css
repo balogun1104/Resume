@@ -629,6 +629,12 @@ button:focus {
   padding-left: 80px !important;
 }
 
+.resume-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @media (max-width: 767px) {
   .resume-left {
     padding-right: 15px !important;
