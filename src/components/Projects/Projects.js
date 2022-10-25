@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import foodApp from "../../Assets/Projects/Food-app.png";
 import chatify from "../../Assets/Projects/chatify.png";
-import woozeee from "../../Assets/Projects/woozee.jpg";
+import Woozee from "../../Assets/Projects/woozee_.png";
 import woozeeMovies from "../../Assets/Projects/woozeeMovies.png";
 import elearning from "../../Assets/Projects/elearning.png";
 import Hulu from "../../Assets/Projects/Hulu.jpg";
@@ -29,12 +29,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={woozeee}
+              imgPath={Woozee}
               isBlog={false}
               title="Woozeee"
               description="Woozee is a platform where you can have FUN, MAKE MONEY and GIVE BACK TO SOCIETY ."
               link="https://github.com/razak1104/Woozee-Movies"
-              linkBtn="https://google.com"
+              linkBtn="https://www.woozeee.com/"
             />
           </Col>
 
