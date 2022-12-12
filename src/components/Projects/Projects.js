@@ -11,6 +11,9 @@ import Hulu from "../../Assets/Projects/Hulu.jpg";
 import Actech from '../../Assets/Projects/Actech.jpg';
 import jarastore from '../../Assets/Projects/jarastore.png';
 import ApiManagement from '../../Assets/Projects/ApiManagement.png'
+import UPS from '../../Assets/Projects/ups.png'
+import GOfresh from '../../Assets/Projects/fastFood.png'
+import MedChat from '../../Assets/Projects/medChat.png'
 
 
 function Projects() {
@@ -40,12 +43,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={foodApp}
+              imgPath={MedChat}
               isBlog={false}
-              title="Food-App"
-              description="A Food App Built Using React.JS, Styled Component for styling and a RestFul Api for Collection of Data"
-              link="https://github.com/razak1104/food-app"
-              linkBtn=""
+              title="MedChat"
+              description="MedChat is a Medical FullStack Chat Application that enable a paitient chat with a Doctor  "
+              link="https://github.com/razak1104/med-chatapp"
+              linkBtn="https://med-chatapp.netlify.app/"
             />
           </Col>
 
@@ -59,11 +62,34 @@ function Projects() {
               description="This an app that allows can Anytime Anywhere
               Learn on your
               Suitable Schedule"
-              link="https://github.com/https://github.com/razak1104/Online-Educational-Platform/MERN_STACK"
+              link="https://github.com/razak1104/Online-Educational-Platform/MERN_STACK"
               linkBtn=""
             />
           </Col>
 
+          {/* UpMobile */}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={UPS}
+              isBlog={false}
+              title="UPS."
+              description="Ups is a Delivery Mobile Application that supports both ios and android its built with React Native"
+              link="https://github.com/razak1104/Ups"
+              linkBtn=""
+            />
+          </Col>
+
+          {/* GOfresh */}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={GOfresh}
+              isBlog={false}
+              title="GoFresh."
+              description="GoFresh is a Food Mobile Application built with React Native"
+              link="https://github.com/razak1104/Fast_Food"
+              linkBtn=""
+            />
+          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -72,6 +98,17 @@ function Projects() {
               title="ACTEch Air-Condtioning Services"
               description=' This app is built with Rect and react-icon'
               linkBtn="https://google.com"
+            />
+          </Col>
+          {/* FoodWeb */}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={foodApp}
+              isBlog={false}
+              title="Food-App"
+              description="A Food App Built Using React.JS, Styled Component for styling and a RestFul Api for Collection of Data"
+              link="https://github.com/razak1104/food-app"
+              linkBtn=""
             />
           </Col>
 

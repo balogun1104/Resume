@@ -24,7 +24,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> Javascript and Python. </b>
+                <b className="purple"> Javascript, TypeScript And Python. </b>
               </i>
               <br />
               <br />
@@ -48,7 +48,7 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> React.js, Next.js, React Native</b>
               </i>
             </p>
           </Col>
