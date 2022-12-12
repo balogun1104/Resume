@@ -45,7 +45,7 @@ function Projects() {
               title="Food-App"
               description="A Food App Built Using React.JS, Styled Component for styling and a RestFul Api for Collection of Data"
               link="https://github.com/razak1104/food-app"
-              linkBtn="https://google.com"
+              linkBtn=""
             />
           </Col>
 
@@ -60,10 +60,20 @@ function Projects() {
               Learn on your
               Suitable Schedule"
               link="https://github.com/https://github.com/razak1104/Online-Educational-Platform/MERN_STACK"
-              linkBtn="https://google.com"
+              linkBtn=""
             />
           </Col>
 
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Actech}
+              isBlog={false}
+              title="ACTEch Air-Condtioning Services"
+              description=' This app is built with Rect and react-icon'
+              linkBtn="https://google.com"
+            />
+          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -102,15 +112,6 @@ function Projects() {
           </Col>
 
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={Actech}
-              isBlog={false}
-              title="ACTEch Air-Condtioning Services"
-              description=' This app is built with Rect and react-icon'
-              linkBtn="https://google.com"
-            />
-          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
