@@ -13,31 +13,22 @@ import { motion, useInView } from "framer-motion";
 import {InView} from "react-intersection-observer";
 
 function Home2() {
-  const [isVisible, setIsVisible] = useState(false);
 
-  const [ref, inView] = useInView({
-    threshold: 0.5,
-    
-  });
-
-  useEffect(() => {
-    setIsVisible(inView);
-  }, [inView]);
+ 
 
   return (
     <Container fluid className="home-about-section" id="about">
-    <InView as={motion.div} onChange={(inView) => setIsVisible(inView)}>
+  
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
-            {({ ref }) => (
+            
               <motion.div
-              ref={ref}
-              animate={{ opacity: isVisible ? 1 : 0 }}
-              transition={{ duration: 2 }}
+             
+             
             >
             <p className="home-about-body">
               I fell in love with programming and I have at least learnt
@@ -73,7 +64,7 @@ function Home2() {
               </i>
             </p>
             </motion.div>
-      )}
+
           </Col>
 
           <Col md={4} className="myAvtar">
@@ -138,7 +129,7 @@ function Home2() {
           </Col>
         </Row>
       </Container>
-      </InView>
+      
     </Container>
   );
 }
