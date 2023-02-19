@@ -341,6 +341,27 @@ button:focus {
   font-size: 1.2em !important;
   text-align: left;
 }
+.intro_header {
+  text-shadow:0px 0px 8px rgb(227, 126, 245);
+  font-weight: 100;
+}
+.home_two_about_me {
+  text-align: start;
+  font-size: 1.1em;
+  font-weight: 100;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(249, 234, 252);
+  border-radius: 10px;
+  line-height: 1.2em;
+  padding: 20px;
+}
+.home_two_about_me_wrapper {
+   
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-top: 0.7rem;
+}
 
 .home-about-social {
   text-align: center !important;

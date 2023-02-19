@@ -29,7 +29,7 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
+            <h1 className="intro_header">
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
 
@@ -41,15 +41,60 @@ function Home2() {
                   transition={{ type: "spring", stiffness: 50, delay: 0.2 }}
                 >
                   {/* Your animated component */}
-                  <h1>Hello World</h1>
+                  <div className="home_two_about_me_wrapper">
+                    <p className="home_two_about_me">
+                      My name is Balogun Razak and I am excited to introduce
+                      myself as a MERN Stack developer. For those who may not be
+                      familiar with the term, MERN stands for MongoDB,
+                      Express.js, React.js, and Node.js - all of which are
+                      open-source technologies used for building web
+                      applications.
+                    </p>
+                    <br />
+                    <motion.p
+                     animate={{ x: 0 }}
+                     initial={{ x: "400vw" }}
+                     transition={{ type: "spring", stiffness: 50, delay: 0.8 }}
+                    className="home_two_about_me">
+                      As a MERN Stack developer, I specialize in creating web
+                      applications that are dynamic, interactive, and
+                      responsive. I have experience working with MongoDB to
+                      manage databases, Express.js to create server-side
+                      applications, React.js to develop user interfaces, and
+                      Node.js to run server-side scripts.
+                    </motion.p>
+                    <br />
+                    <motion.p 
+                    animate={{ x: 0 }}
+                    initial={{ x: "-200vw" }}
+                    transition={{ type: "spring", stiffness: 50, delay: 1.4 }}
+                    className="home_two_about_me">
+                      I have a passion for coding and enjoy tackling complex
+                      problems. I am always looking for new and innovative ways
+                      to improve my skills and stay up-to-date with the latest
+                      technologies. In addition to my technical abilities, I
+                      have excellent communication and collaboration skills,
+                      which allow me to work effectively in a team environment.
+                    </motion.p>
+                    <br />
+                    <motion.p 
+                    animate={{ x: 0 }}
+                    initial={{ x: "400vw" }}
+                    transition={{ type: "spring", stiffness: 50, delay: 2.0 }}
+                    className="home_two_about_me">
+                      Overall, I am confident in my ability to develop
+                      high-quality web applications using the MERN Stack. I am
+                      excited to share my knowledge and expertise with others,
+                      and I look forward to collaborating with like-minded
+                      professionals in the industry. 
+                    </motion.p>
+                  </div>
                 </motion.div>
               )}
-              ™
             </div>
           </Col>
 
-          
-                  <Col md={4} className="myAvtar">
+          <Col md={4} className="myAvtar">
             <Tilt>
               <img
                 src={myImg}
@@ -59,9 +104,6 @@ function Home2() {
               />
             </Tilt>
           </Col>
-                
-          
-         
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
