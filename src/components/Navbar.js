@@ -14,6 +14,7 @@ import {
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
+import {motion} from 'framer-motion'
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -39,7 +40,14 @@ function NavBar() {
       <Container>
         <Navbar.Brand href="/" className="d-flex">
           {/* <img src={logo} className="img-fluid logo" alt="brand" /> */}
-          <p className="RB">ℝ𝔹</p>
+          <motion.p className="RB"
+          whileHover={{
+            scale: 1.3,
+            textShadow: "0px 0px 8px rgb(227, 126, 245)",
+            // boxShadow: "0px 0px 8px rgb(198 63 221)",
+            
+          }}
+          >ℝ𝔹</motion.p>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"

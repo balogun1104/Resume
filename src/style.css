@@ -5,17 +5,18 @@ html {
     rgba(12, 8, 24, 0.904)
   );
 
-  --image-gradient: linear-gradient(
+  /* --image-gradient: linear-gradient(
     to bottom left,
     rgba(17, 16, 16, 0.678),
     rgba(12, 10, 22, 0.863)
-  );
+  ); */
 
   --imp-text-color: #c770f0;
 }
 
 .purple {
-  color: var(--imp-text-color) !important;
+  /* color: var(--imp-text-color) !important; */
+  color: #080808;
 }
 
 button:focus {
@@ -160,7 +161,7 @@ button:focus {
 }
 
 .navbar-nav .nav-link {
-  color: white !important;
+  color: #080808 !important;
   padding-right: 1rem !important;
   padding-left: 1rem !important;
 }
@@ -208,6 +209,7 @@ button:focus {
 .RB {
   font-size: 40px;
   font-weight: 200;
+  color: rgb(198 63 221);
 }
 /* --------- */
 /* Home section */
@@ -261,7 +263,7 @@ button:focus {
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
+  background-image: var(--image-gradient), url(./Assets/home-bg2.jpeg);
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
@@ -270,7 +272,7 @@ button:focus {
 
 .home-content {
   padding: 9rem 0 2rem !important;
-  color: whitesmoke;
+  color: rgb(198 63 221);
   text-align: left;
 }
 
@@ -285,12 +287,12 @@ button:focus {
 }
 
 .main-name {
-  color: #cd5ff8;
+  color: #080808;
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #be6adf !important;
+  color:  #080808 !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
@@ -328,7 +330,7 @@ button:focus {
 }
 
 .home-about-description {
-  color: white !important;
+  color: rgb(8, 8, 8) !important;
   padding-top: 100px !important;
   padding-bottom: 20px !important;
   text-align: center;
@@ -339,11 +341,32 @@ button:focus {
   font-size: 1.2em !important;
   text-align: left;
 }
+.intro_header {
+  text-shadow:0px 0px 8px rgb(227, 126, 245);
+  font-weight: 100;
+}
+.home_two_about_me {
+  text-align: start;
+  font-size: 1.1em;
+  font-weight: 100;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(249, 234, 252);
+  border-radius: 10px;
+  line-height: 1.2em;
+  padding: 20px;
+}
+.home_two_about_me_wrapper {
+   
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-top: 0.7rem;
+}
 
 .home-about-social {
   text-align: center !important;
   padding-top: 25px;
-  color: white !important;
+  color: #080808 !important;
 }
 
 .home-about-social-links {
@@ -451,7 +474,7 @@ button:focus {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  /* background-image: var(--section-background-color) !important; */
 }
 
 .project-card {
@@ -535,7 +558,7 @@ button:focus {
   box-shadow: none !important;
 }
 .project-heading {
-  color: white !important;
+  color: #080808 !important;
   font-size: 2.3em !important;
   font-weight: 500 !important;
   padding-top: 10px !important;
