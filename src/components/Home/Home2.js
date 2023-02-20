@@ -38,7 +38,7 @@ function Home2() {
                 <motion.div
                   animate={{ x: 0 }}
                   initial={{ x: "-200vw" }}
-                  transition={{ type: "spring", stiffness: 50, delay: 0.2 }}
+                  transition={{ type: "spring", stiffness: 20, delay: 0.2 }}
                 >
                   {/* Your animated component */}
                   <div className="home_two_about_me_wrapper">
@@ -54,7 +54,7 @@ function Home2() {
                     <motion.p
                      animate={{ x: 0 }}
                      initial={{ x: "400vw" }}
-                     transition={{ type: "spring", stiffness: 50, delay: 0.8 }}
+                     transition={{ type: "spring", stiffness: 20, delay: 0.8 }}
                     className="home_two_about_me">
                       As a MERN Stack developer, I specialize in creating web
                       applications that are dynamic, interactive, and
@@ -67,7 +67,7 @@ function Home2() {
                     <motion.p 
                     animate={{ x: 0 }}
                     initial={{ x: "-200vw" }}
-                    transition={{ type: "spring", stiffness: 50, delay: 1.4 }}
+                    transition={{ type: "spring", stiffness: 20, delay: 1.4 }}
                     className="home_two_about_me">
                       I have a passion for coding and enjoy tackling complex
                       problems. I am always looking for new and innovative ways
@@ -80,7 +80,7 @@ function Home2() {
                     <motion.p 
                     animate={{ x: 0 }}
                     initial={{ x: "400vw" }}
-                    transition={{ type: "spring", stiffness: 50, delay: 2.0 }}
+                    transition={{ type: "spring", stiffness: 20, delay: 2.0 }}
                     className="home_two_about_me">
                       Overall, I am confident in my ability to develop
                       high-quality web applications using the MERN Stack. I am
