@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Row, Col } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Woozee from "../../Assets/Projects/woozee_.png";
 import MedChat from '../../Assets/Projects/medChat.png'
