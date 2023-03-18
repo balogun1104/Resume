@@ -5,6 +5,7 @@ import Woozee from "../../Assets/Projects/woozee_.png";
 import MedChat from "../../Assets/Projects/medChat.png";
 import elearning from "../../Assets/Projects/elearning.png";
 import Crid from "../../Assets/Projects/crid.png";
+import AkaraHouse from "../../Assets/Projects/akaraHouse.png";
 
 const ReactProject = () => {
   return (
@@ -32,6 +33,18 @@ const ReactProject = () => {
             linkBtn="https://crid.netlify.app/"
           />
         </Col>
+        {/* Akara House */}
+        <Col md={4} className="project-card">
+          <ProjectCard
+            imgPath={AkaraHouse}
+            isBlog={false}
+            title="Akara House"
+            description="Best African-Burger in NYC"
+            link=""
+            linkBtn="https://www.akarahouse.com/"
+          />
+        </Col>
+
         {/* MedChat */}
         <Col md={4} className="project-card">
           <ProjectCard
