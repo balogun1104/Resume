@@ -32,7 +32,7 @@ function Projects() {
             className="projectButton"
           >
            <AiOutlineDesktop /> &nbsp;
-            React Project
+            Web Application
           </Button>
 
           <Button
@@ -41,7 +41,7 @@ function Projects() {
             className="projectButton"
           >
              <AiOutlineMobile /> &nbsp;
-            React Native Project
+            Mobile Application
           </Button>
         </div>
 
