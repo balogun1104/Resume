@@ -18,7 +18,10 @@ html {
   /* color: var(--imp-text-color) !important; */
   color: #080808;
 }
-
+.purpleAbt {
+  /* color: var(--imp-text-color) !important; */
+  color: #c770f0;
+}
 button:focus {
   box-shadow: none !important;
 }
@@ -77,7 +80,7 @@ button:focus {
 /* Navbar Section  */
 /* --------- */
 .sticky {
-  background-color: #1b1a2ea9 !important;
+  /* background-color:rgb(240, 217, 251) !important; */
   transition: all 0.3s ease-out 0s !important;
   box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
   backdrop-filter: blur(15px) !important;
@@ -145,7 +148,8 @@ button:focus {
   .navbar {
     padding: 1rem 2rem !important;
     font-size: 1.4rem !important;
-    background-color: #181a27 !important;
+    background-color: rgb(44, 9, 50) !important;
+    
   }
   .navbar-nav .nav-item a::after {
     display: none !important;
@@ -173,6 +177,7 @@ button:focus {
 @media (max-width: 767px) {
   .nav-link {
     padding: 0.7rem 1rem !important;
+   
   }
 }
 
@@ -186,6 +191,11 @@ button:focus {
   transition: all 0.3s ease-out 0s;
   position: relative;
   z-index: 1;
+}
+@media (max-width: 767px) {
+  .navbar-nav .nav-item a  {
+   color: #fff !important;
+  }
 }
 
 .navbar-nav .nav-item a::after {
@@ -358,8 +368,8 @@ button:focus {
 }
 .home_two_about_me_wrapper {
    
-  margin-left: 5rem;
-  margin-right: 5rem;
+  /* margin-left: 5rem;
+  margin-right: 5rem; */
   margin-top: 0.7rem;
 }
 
@@ -465,7 +475,7 @@ button:focus {
 }
 
 .blockquote-footer {
-  color: #a588c0 !important;
+  color: #fff !important;
 }
 /* --------- */
 /* Projects */
@@ -558,7 +568,7 @@ button:focus {
   box-shadow: none !important;
 }
 .project-heading {
-  color: #080808 !important;
+  color: #fff !important;
   font-size: 2.3em !important;
   font-weight: 500 !important;
   padding-top: 10px !important;
@@ -761,7 +771,7 @@ button:focus {
 
 .fork-btn-inner {
   line-height: 1.4em !important;
-  background-color: #934cce5e !important;
+  background-color: rgb(198 63 221) !important;
   padding: 0.25rem 1.1rem !important;
   vertical-align: middle !important;
   text-align: center !important;
