@@ -23,7 +23,7 @@ function AboutCard() {
             <span className="about-activity">
             <AiFillStar style={{ fontSize: "40px" }} />
               <p>
-                Playing Games: When I'm not immersed in lines of code, you'll
+                <span className="purpleAbt">Playing Games:</span> When I'm not immersed in lines of code, you'll
                 often find me exploring virtual worlds and engaging in
                 exhilarating gaming adventures. It's a fantastic way to unwind
                 and immerse myself in captivating narratives.
@@ -32,7 +32,7 @@ function AboutCard() {
             <span className="about-activity">
               <AiFillStar style={{ fontSize: "40px" }} />
               <p>
-                Playing Basketball: As a sports enthusiast, I relish the
+              <span className="purpleAbt">Playing Basketball:</span>  As a sports enthusiast, I relish the
                 physical challenges and camaraderie that basketball provides.
                 Whether it's on the court or cheering on my favorite teams, the
                 sport fuels my competitive spirit and keeps me energized.
@@ -41,7 +41,7 @@ function AboutCard() {
             <span className="about-activity">
             <AiFillStar style={{ fontSize: "40px" }} />
               <p>
-                Going to the Gym: Maintaining a healthy lifestyle is crucial to
+              <span className="purpleAbt">Going To The Gym:</span> Maintaining a healthy lifestyle is crucial to
                 me, and the gym is my sanctuary for physical and mental
                 well-being. I believe in the power of exercise to not only
                 strengthen the body but also invigorate the mind, allowing me to
