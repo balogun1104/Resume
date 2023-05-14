@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
+import { AiFillStar } from "react-icons/ai";
 
 function AboutCard() {
   return (
@@ -21,7 +21,7 @@ function AboutCard() {
           </p>
           <div>
             <span className="about-activity">
-              <ImPointRight style={{ fontSize: "40px" }} />
+            <AiFillStar style={{ fontSize: "40px" }} />
               <p>
                 Playing Games: When I'm not immersed in lines of code, you'll
                 often find me exploring virtual worlds and engaging in
@@ -30,27 +30,36 @@ function AboutCard() {
               </p>
             </span>
             <span className="about-activity">
-              <ImPointRight style={{ fontSize: "40px" }} />
+              <AiFillStar style={{ fontSize: "40px" }} />
               <p>
-                Playing Games: When I'm not immersed in lines of code, you'll
-                often find me exploring virtual worlds and engaging in
-                exhilarating gaming adventures. It's a fantastic way to unwind
-                and immerse myself in captivating narratives.
+                Playing Basketball: As a sports enthusiast, I relish the
+                physical challenges and camaraderie that basketball provides.
+                Whether it's on the court or cheering on my favorite teams, the
+                sport fuels my competitive spirit and keeps me energized.
               </p>
             </span>
             <span className="about-activity">
-              <ImPointRight style={{ fontSize: "40px" }} />
+            <AiFillStar style={{ fontSize: "40px" }} />
               <p>
-                Playing Games: When I'm not immersed in lines of code, you'll
-                often find me exploring virtual worlds and engaging in
-                exhilarating gaming adventures. It's a fantastic way to unwind
-                and immerse myself in captivating narratives.
+                Going to the Gym: Maintaining a healthy lifestyle is crucial to
+                me, and the gym is my sanctuary for physical and mental
+                well-being. I believe in the power of exercise to not only
+                strengthen the body but also invigorate the mind, allowing me to
+                approach challenges with renewed vigor.
               </p>
             </span>
           </div>
 
-          <p className="purpleAbt">
-            "Consistency is the best material for learning !"{" "}
+          <p>
+            In all aspects of my life, I adhere to the principle that
+            <br />
+            <span className="purpleAbt">
+              "consistency is the best material for learning!"{" "}
+            </span>
+            <br />
+            This motto resonates with me deeply, as I believe that progress is
+            best achieved through a steadfast commitment to continuous growth
+            and improvement.{" "}
           </p>
           <footer className="blockquote-footer">Razak</footer>
         </blockquote>
