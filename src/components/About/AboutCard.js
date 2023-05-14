@@ -8,12 +8,11 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purpleAbt">Razak Balogun </span>
-            from <span className="purpleAbt"> Lagos, Nigeria.</span>
-            <br />I am a Software Engineer
-            <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
+            Hello, everyone! My name is <span className="purpleAbt">Razak Balogun,</span> and I'm a passionate
+            <span className="purpleAbt"> Software Engineer </span> hailing from <span className="purpleAbt">Lagos, Nigeria.</span> I find great joy in
+            crafting innovative solutions through coding and constantly pushing
+            the boundaries of technology.
+            <br />Apart from coding, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
