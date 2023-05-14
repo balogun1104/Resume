@@ -627,6 +627,7 @@ button:focus {
   list-style: none !important;
   text-align: left !important;
   padding-left: 1px !important;
+  display: flex;
 }
 
 @media (max-width: 767px) {

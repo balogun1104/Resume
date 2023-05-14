@@ -8,24 +8,46 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hello, everyone! My name is <span className="purpleAbt">Razak Balogun,</span> and I'm a passionate
-            <span className="purpleAbt"> Software Engineer </span> hailing from <span className="purpleAbt">Lagos, Nigeria.</span> I find great joy in
-            crafting innovative solutions through coding and constantly pushing
-            the boundaries of technology.
-            <br />Apart from coding, some other activities that I love to do!
+            Hello, everyone! My name is{" "}
+            <span className="purpleAbt">Razak Balogun,</span> and I'm a
+            passionate
+            <span className="purpleAbt"> Software Engineer </span> hailing from{" "}
+            <span className="purpleAbt">Lagos, Nigeria.</span> I find great joy
+            in crafting innovative solutions through coding and constantly
+            pushing the boundaries of technology.
+            <br />
+            In addition to my love for programming, I have a range of other
+            activities that bring excitement and balance to my life:
           </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Playing Games
-            </li>
-            <li className="about-activity">
-              <ImPointRight />
-              Playing Basketball
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Going to the gym
-            </li>
-          </ul>
+          <div>
+            <span className="about-activity">
+              <ImPointRight style={{ fontSize: "40px" }} />
+              <p>
+                Playing Games: When I'm not immersed in lines of code, you'll
+                often find me exploring virtual worlds and engaging in
+                exhilarating gaming adventures. It's a fantastic way to unwind
+                and immerse myself in captivating narratives.
+              </p>
+            </span>
+            <span className="about-activity">
+              <ImPointRight style={{ fontSize: "40px" }} />
+              <p>
+                Playing Games: When I'm not immersed in lines of code, you'll
+                often find me exploring virtual worlds and engaging in
+                exhilarating gaming adventures. It's a fantastic way to unwind
+                and immerse myself in captivating narratives.
+              </p>
+            </span>
+            <span className="about-activity">
+              <ImPointRight style={{ fontSize: "40px" }} />
+              <p>
+                Playing Games: When I'm not immersed in lines of code, you'll
+                often find me exploring virtual worlds and engaging in
+                exhilarating gaming adventures. It's a fantastic way to unwind
+                and immerse myself in captivating narratives.
+              </p>
+            </span>
+          </div>
 
           <p className="purpleAbt">
             "Consistency is the best material for learning !"{" "}
