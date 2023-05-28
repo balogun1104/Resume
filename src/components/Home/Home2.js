@@ -27,8 +27,8 @@ function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
-        <Row>
-          <Col md={8} className="home-about-description">
+        <Row style={{justifyContent: 'space-evenly'}}>
+          <Col md={6} className="home-about-description">
             <h1 className="intro_header">
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
@@ -43,14 +43,23 @@ function Home2() {
                   {/* Your animated component */}
                   <div className="home_two_about_me_wrapper">
                     <p className="home_two_about_me">
-                      My name is Balogun Razak and I am excited to introduce
-                      myself as a MERN Stack developer. For those who may not be
-                      familiar with the term, MERN stands for MongoDB,
-                      Express.js, React.js, and Node.js - all of which are
-                      open-source technologies used for building web
-                      applications.
+                      I am a highly motivated and results-driven React/React
+                      Native Software Developer with extensive experience in
+                      Frontend Engineering and UI/UX Design. Skilled in building
+                      responsive, user-friendly interfaces using React and React
+                      Native, as well as integrating with back-end APIs and
+                      services. Constantly learning and staying up-to-date with
+                      the latest technologies in the React ecosystem. My skills
+                      include strong knowledge and experience in React/React
+                      Native, proficiency in JavaScript, HTML, and CSS,
+                      understanding of UI/UX design principles, familiarity with
+                      Git and version control, ability in testing and debugging,
+                      problem-solving and analytical thinking, effective
+                      communication and collaboration, continuous learning
+                      mindset, and project management experience in agile
+                      development environments.
                     </p>
-                    <br />
+                    {/* <br />
                     <motion.p
                      animate={{ x: 0 }}
                      initial={{ x: "400vw" }}
@@ -87,7 +96,7 @@ function Home2() {
                       excited to share my knowledge and expertise with others,
                       and I look forward to collaborating with like-minded
                       professionals in the industry. 
-                    </motion.p>
+                    </motion.p> */}
                   </div>
                 </motion.div>
               )}
