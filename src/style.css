@@ -337,6 +337,7 @@ button:focus {
   position: relative;
   padding-bottom: 70px !important;
   padding-top: 70px !important;
+  /* justify-content: space-between; */
 }
 
 .home-about-description {
@@ -357,14 +358,15 @@ button:focus {
 }
 .home_two_about_me {
   text-align: start;
-  font-size: 1.1em;
-  font-weight: 100;
+  font-size: 1.2em;
+  /* font-weight: 100; */
   justify-content: center;
   align-items: center;
   background-color: rgb(249, 234, 252);
   border-radius: 10px;
   line-height: 1.2em;
   padding: 20px;
+  font-family: 'Courier New', Courier, monospace;
 }
 .home_two_about_me_wrapper {
    
