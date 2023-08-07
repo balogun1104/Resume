@@ -7,7 +7,7 @@ function ImageCards(props) {
     <Card className="project-card-view">
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
       <Card.Body>
-        <Card.Title style={{ color: "black" }}>{props.title}</Card.Title> 
+        <Card.Title style={{ color: "black" }}>{props.title}</Card.Title>  
       </Card.Body>
     </Card>
   );
